@@ -9,15 +9,12 @@
 // });
 // console.log(a);
 //3-masala
-// let arr = [1, 2, 3, 4, 1];
-// let newsolution = arr.forEach((item) => {
-//   if (item == item) {
-//     console.log(true);
-//   } else {
-//     console.log(false);
-//   }
-// });
-// console.log(newsolution);
+// function tekshir(arr) {
+//   let set = new Set(arr);
+//   return set.size == arr.length;
+// }
+// let arr = [10, 1, 2, 3, 4, 5];
+// console.log(tekshir(arr));
 //4-masala
 // let setObj = new Set([1, 3, 5, 56, 54, 1, 3, 5]);
 // let newobj_1 = [...setObj];
@@ -44,6 +41,18 @@
 // };
 // console.log(newobj);
 //7-masala
+// function solishtir(set1, set2) {
+//   for (let item of set1) {
+//     if (!set2.has(item)) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// let setObj_1 = new Set([1, 3, 4, 5]);
+// let setObj_2 = new Set([3, 4, 5]);
+
+// console.log(solishtir(setObj_1, setObj_2));
 //8-masala
 // let setObj = new Set([1, 3, 5, 56, 54, 1, 3, 5]);
 // let newobj_1 = [...setObj];
@@ -59,3 +68,16 @@
 // });
 // console.log(a);
 //10-masala
+let setObj_1 = new Set([1, 3, 4, 5]);
+let setObj_2 = new Set([3, 4, 5]);
+function solishtir(set1, set2) {
+  let newarr = [];
+  for (let item of set1) {
+    if (set2.has(item)) {
+      return newarr.push(item);
+    } else {
+      return newarr;
+    }
+  }
+}
+console.log(newarr);
