@@ -40,6 +40,9 @@
 //   ...obj,
 // };
 // console.log(newobj);
+// yoki
+// let setObj = new Set([1, 3, 5, 56, 54, 1, 3, 5]);
+// console.log(setObj);
 //7-masala
 // function solishtir(set1, set2) {
 //   for (let item of set1) {
@@ -68,16 +71,16 @@
 // });
 // console.log(a);
 //10-masala
-let setObj_1 = new Set([1, 3, 4, 5]);
-let setObj_2 = new Set([3, 4, 5]);
-function solishtir(set1, set2) {
-  let newarr = [];
-  for (let item of set1) {
-    if (set2.has(item)) {
-      return newarr.push(item);
-    } else {
-      return newarr;
-    }
-  }
-}
-console.log(newarr);
+// let setObj_1 = new Set([1, 3, 4, 5]);
+// let setObj_2 = new Set([3, 4, 5]);
+// function solishtir(set1, set2) {
+//   let newarr = [];
+//   for (let item of set1) {
+//     if (set2.has(item)) {
+//       return newarr.push(item);
+//     } else {
+//       return newarr;
+//     }
+//   }
+// }
+// console.log(newarr);
